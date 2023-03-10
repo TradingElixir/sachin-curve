@@ -29,7 +29,7 @@ const TransactionLoader = () => {
 
   return (
     <div className={styles.wrapper}>
-      <div className={styles.title}>Transaction in progress...</div>
+      <div className={styles.title}>wait...</div>
       <MoonLoader {...moonLoaderProps} size={moonLoaderProps.size} />
     </div>
   )
